@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5912A5C319BD45E50045CA9F /* NVTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5912A5C219BD45E50045CA9F /* NVTest.m */; };
 		59C8893919BD07F100447377 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C8893819BD07F100447377 /* Foundation.framework */; };
 		59C8893B19BD07F100447377 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C8893A19BD07F100447377 /* CoreGraphics.framework */; };
 		59C8893D19BD07F100447377 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C8893C19BD07F100447377 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5912A5C119BD45E50045CA9F /* NVTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVTest.h; sourceTree = "<group>"; };
+		5912A5C219BD45E50045CA9F /* NVTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVTest.m; sourceTree = "<group>"; };
 		59C8893519BD07F000447377 /* git test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "git test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C8893819BD07F100447377 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		59C8893A19BD07F100447377 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				59C8894719BD07F100447377 /* NVAppDelegate.h */,
+				5912A5C119BD45E50045CA9F /* NVTest.h */,
+				5912A5C219BD45E50045CA9F /* NVTest.m */,
 				59C8894819BD07F100447377 /* NVAppDelegate.m */,
 				59C8894A19BD07F100447377 /* Main.storyboard */,
 				59C8894D19BD07F100447377 /* NVViewController.h */,
@@ -253,6 +258,7 @@
 				59C8894F19BD07F100447377 /* NVViewController.m in Sources */,
 				59C8894919BD07F100447377 /* NVAppDelegate.m in Sources */,
 				59C8894519BD07F100447377 /* main.m in Sources */,
+				5912A5C319BD45E50045CA9F /* NVTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +463,7 @@
 				59C8896919BD07F100447377 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59C8896A19BD07F100447377 /* Build configuration list for PBXNativeTarget "git testTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				59C8896C19BD07F100447377 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
